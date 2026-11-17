@@ -1,0 +1,15 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+SQLAlchemy>=2.0,<2.1
+httpx>=0.28,<1
+PyJWT>=2.10,<3
+croniter>=6,<7
+prometheus-client>=0.21,<1
+jsonpath-ng>=1.7,<2
+regex>=2024.11
+psycopg[binary]>=3.2,<4
+websockets>=15,<17
+
+# Linux x86_64 glibc 2.17 wheel baseline
+greenlet==3.2.5
+packaging>=24
